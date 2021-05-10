@@ -1,0 +1,27 @@
+/*html, body {
+    height: 100%;
+    margin:0;
+    overflow:hidden;
+  }
+  
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #eee;
+  font: caption;
+}
+  
+#version {
+  position: absolute;
+  left: 5px;
+  top: 605px;
+}
+*/
+
+
+
+@font-face {
+  font-family: "font1";
+  src: url(../assets/font/Pixellari.ttf);
+}

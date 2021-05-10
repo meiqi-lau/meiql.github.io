@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <script type="text/javascript" src="phaser.min.js"> </script>
+
+    <!-- Scenes come after loading phaser script, before game  -->
+
+    <!-- NOTE CONSIDER type="module" for scenes with import (test it out) -->
+    <script type="text/javascript" src="Scenes/CharacterDataLoader.js"></script>
+
+    <script type="text/javascript" src="Scenes/StartScene.js"> </script>
+    <script type="text/javascript" src="Scenes/DialogueScene.js"> </script>
+    <script type="text/javascript" src="Scenes/CharacterSelection.js"> </script>
+    <script type="text/javascript" src="Scenes/ActionScene.js"> </script>
+    <script type="text/javascript" src="Scenes/UIScene.js"> </script>
+    <script type="text/javascript" src="Scenes/HealthBar.js"> </script>
+    <script type="text/javascript" src="Scenes/BattleDialogue.js"> </script>
+    <script type="text/javascript" src="Scenes/WinScene.js"> </script>
+    <script type="text/javascript" src="Scenes/LoseScene.js"> </script>
+    <script type="text/javascript" src="Scenes/EndSceneUI.js"> </script>
+
+    <script type="text/javascript" src="game.js"> </script>
+    <link rel="stylesheet" href="Scenes\DialogueScene.css">
+    <style>
+        canvas{width: 100%;}
+    </style>
+</head>
+<body>
+    <div id=version></div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.4.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.4.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
+
